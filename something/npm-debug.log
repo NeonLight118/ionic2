@@ -1,0 +1,263 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@3.8.0
+3 info using node@v5.7.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData angular2
+20 silly mapToRegistry name angular2
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/angular2
+24 silly fetchNamedPackageData es6-promise
+25 silly mapToRegistry name es6-promise
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/es6-promise
+29 silly fetchNamedPackageData es6-shim
+30 silly mapToRegistry name es6-shim
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/es6-shim
+34 silly fetchNamedPackageData ionic-angular
+35 silly mapToRegistry name ionic-angular
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/ionic-angular
+39 silly fetchNamedPackageData ionicons
+40 silly mapToRegistry name ionicons
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/ionicons
+44 silly fetchNamedPackageData reflect-metadata
+45 silly mapToRegistry name reflect-metadata
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://registry.npmjs.org/reflect-metadata
+49 silly fetchNamedPackageData rxjs
+50 silly mapToRegistry name rxjs
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+54 silly fetchNamedPackageData zone.js
+55 silly mapToRegistry name zone.js
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+59 verbose get https://registry.npmjs.org/angular2 not expired, no request
+60 silly resolveWithNewModule angular2@2.0.0-beta.6 checking installable status
+61 silly cache add args [ 'angular2@2.0.0-beta.6', null ]
+62 verbose cache add spec angular2@2.0.0-beta.6
+63 silly cache add parsed spec Result {
+63 silly cache add   raw: 'angular2@2.0.0-beta.6',
+63 silly cache add   scope: null,
+63 silly cache add   name: 'angular2',
+63 silly cache add   rawSpec: '2.0.0-beta.6',
+63 silly cache add   spec: '2.0.0-beta.6',
+63 silly cache add   type: 'version' }
+64 silly addNamed angular2@2.0.0-beta.6
+65 verbose addNamed "2.0.0-beta.6" is a plain semver version for angular2
+66 silly mapToRegistry name angular2
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry uri https://registry.npmjs.org/angular2
+70 verbose addNameVersion registry:https://registry.npmjs.org/angular2 not in flight; fetching
+71 verbose get https://registry.npmjs.org/es6-promise not expired, no request
+72 silly resolveWithNewModule es6-promise@3.0.2 checking installable status
+73 silly cache add args [ 'es6-promise@3.0.2', null ]
+74 verbose cache add spec es6-promise@3.0.2
+75 silly cache add parsed spec Result {
+75 silly cache add   raw: 'es6-promise@3.0.2',
+75 silly cache add   scope: null,
+75 silly cache add   name: 'es6-promise',
+75 silly cache add   rawSpec: '3.0.2',
+75 silly cache add   spec: '3.0.2',
+75 silly cache add   type: 'version' }
+76 silly addNamed es6-promise@3.0.2
+77 verbose addNamed "3.0.2" is a plain semver version for es6-promise
+78 silly mapToRegistry name es6-promise
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry uri https://registry.npmjs.org/es6-promise
+82 verbose addNameVersion registry:https://registry.npmjs.org/es6-promise not in flight; fetching
+83 verbose get https://registry.npmjs.org/ionicons not expired, no request
+84 silly resolveWithNewModule ionicons@3.0.0-alpha.3 checking installable status
+85 silly cache add args [ 'ionicons@3.0.0-alpha.3', null ]
+86 verbose cache add spec ionicons@3.0.0-alpha.3
+87 silly cache add parsed spec Result {
+87 silly cache add   raw: 'ionicons@3.0.0-alpha.3',
+87 silly cache add   scope: null,
+87 silly cache add   name: 'ionicons',
+87 silly cache add   rawSpec: '3.0.0-alpha.3',
+87 silly cache add   spec: '3.0.0-alpha.3',
+87 silly cache add   type: 'version' }
+88 silly addNamed ionicons@3.0.0-alpha.3
+89 verbose addNamed "3.0.0-alpha.3" is a plain semver version for ionicons
+90 silly mapToRegistry name ionicons
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry uri https://registry.npmjs.org/ionicons
+94 verbose addNameVersion registry:https://registry.npmjs.org/ionicons not in flight; fetching
+95 verbose get https://registry.npmjs.org/ionic-angular not expired, no request
+96 silly fetchPackageMetaData Error: No compatible version found: ionic-angular@2.0.0-beta.3
+96 silly fetchPackageMetaData Valid install targets:
+96 silly fetchPackageMetaData 2.0.0-beta.2, 2.0.0-beta.1, 2.0.0-beta.0
+96 silly fetchPackageMetaData
+96 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/lib/node_modules/npm/lib/fetch-package-metadata.js:156:16)
+96 silly fetchPackageMetaData     at /usr/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+96 silly fetchPackageMetaData     at /usr/lib/node_modules/npm/lib/utils/pulse-till-done.js:19:8
+96 silly fetchPackageMetaData     at CachingRegistryClient.get_ (/usr/lib/node_modules/npm/lib/cache/caching-client.js:120:16)
+96 silly fetchPackageMetaData     at /usr/lib/node_modules/npm/lib/cache/caching-client.js:87:14
+96 silly fetchPackageMetaData     at /usr/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+96 silly fetchPackageMetaData     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:404:3)
+96 silly fetchPackageMetaData  error for ionic-angular@2.0.0-beta.3 [Error: No compatible version found: ionic-angular@2.0.0-beta.3
+96 silly fetchPackageMetaData Valid install targets:
+96 silly fetchPackageMetaData 2.0.0-beta.2, 2.0.0-beta.1, 2.0.0-beta.0
+96 silly fetchPackageMetaData ]
+97 verbose get https://registry.npmjs.org/reflect-metadata not expired, no request
+98 silly resolveWithNewModule reflect-metadata@0.1.2 checking installable status
+99 silly cache add args [ 'reflect-metadata@0.1.2', null ]
+100 verbose cache add spec reflect-metadata@0.1.2
+101 silly cache add parsed spec Result {
+101 silly cache add   raw: 'reflect-metadata@0.1.2',
+101 silly cache add   scope: null,
+101 silly cache add   name: 'reflect-metadata',
+101 silly cache add   rawSpec: '0.1.2',
+101 silly cache add   spec: '0.1.2',
+101 silly cache add   type: 'version' }
+102 silly addNamed reflect-metadata@0.1.2
+103 verbose addNamed "0.1.2" is a plain semver version for reflect-metadata
+104 silly mapToRegistry name reflect-metadata
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry uri https://registry.npmjs.org/reflect-metadata
+108 verbose addNameVersion registry:https://registry.npmjs.org/reflect-metadata not in flight; fetching
+109 verbose get https://registry.npmjs.org/zone.js not expired, no request
+110 silly resolveWithNewModule zone.js@0.5.14 checking installable status
+111 silly cache add args [ 'zone.js@0.5.14', null ]
+112 verbose cache add spec zone.js@0.5.14
+113 silly cache add parsed spec Result {
+113 silly cache add   raw: 'zone.js@0.5.14',
+113 silly cache add   scope: null,
+113 silly cache add   name: 'zone.js',
+113 silly cache add   rawSpec: '0.5.14',
+113 silly cache add   spec: '0.5.14',
+113 silly cache add   type: 'version' }
+114 silly addNamed zone.js@0.5.14
+115 verbose addNamed "0.5.14" is a plain semver version for zone.js
+116 silly mapToRegistry name zone.js
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+120 verbose addNameVersion registry:https://registry.npmjs.org/zone.js not in flight; fetching
+121 verbose get https://registry.npmjs.org/rxjs not expired, no request
+122 silly resolveWithNewModule rxjs@5.0.0-beta.0 checking installable status
+123 silly cache add args [ 'rxjs@5.0.0-beta.0', null ]
+124 verbose cache add spec rxjs@5.0.0-beta.0
+125 silly cache add parsed spec Result {
+125 silly cache add   raw: 'rxjs@5.0.0-beta.0',
+125 silly cache add   scope: null,
+125 silly cache add   name: 'rxjs',
+125 silly cache add   rawSpec: '5.0.0-beta.0',
+125 silly cache add   spec: '5.0.0-beta.0',
+125 silly cache add   type: 'version' }
+126 silly addNamed rxjs@5.0.0-beta.0
+127 verbose addNamed "5.0.0-beta.0" is a plain semver version for rxjs
+128 silly mapToRegistry name rxjs
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+132 verbose addNameVersion registry:https://registry.npmjs.org/rxjs not in flight; fetching
+133 verbose get https://registry.npmjs.org/es6-shim not expired, no request
+134 silly resolveWithNewModule es6-shim@0.33.13 checking installable status
+135 silly cache add args [ 'es6-shim@0.33.13', null ]
+136 verbose cache add spec es6-shim@0.33.13
+137 silly cache add parsed spec Result {
+137 silly cache add   raw: 'es6-shim@0.33.13',
+137 silly cache add   scope: null,
+137 silly cache add   name: 'es6-shim',
+137 silly cache add   rawSpec: '0.33.13',
+137 silly cache add   spec: '0.33.13',
+137 silly cache add   type: 'version' }
+138 silly addNamed es6-shim@0.33.13
+139 verbose addNamed "0.33.13" is a plain semver version for es6-shim
+140 silly mapToRegistry name es6-shim
+141 silly mapToRegistry using default registry
+142 silly mapToRegistry registry https://registry.npmjs.org/
+143 silly mapToRegistry uri https://registry.npmjs.org/es6-shim
+144 verbose addNameVersion registry:https://registry.npmjs.org/es6-shim not in flight; fetching
+145 verbose get https://registry.npmjs.org/angular2 not expired, no request
+146 verbose get https://registry.npmjs.org/es6-promise not expired, no request
+147 verbose get https://registry.npmjs.org/ionicons not expired, no request
+148 verbose get https://registry.npmjs.org/reflect-metadata not expired, no request
+149 verbose get https://registry.npmjs.org/zone.js not expired, no request
+150 verbose get https://registry.npmjs.org/rxjs not expired, no request
+151 verbose get https://registry.npmjs.org/es6-shim not expired, no request
+152 silly cache afterAdd es6-promise@3.0.2
+153 verbose afterAdd /home/ionic/.npm/es6-promise/3.0.2/package/package.json not in flight; writing
+154 verbose correctMkdir /home/ionic/.npm correctMkdir not in flight; initializing
+155 silly cache afterAdd angular2@2.0.0-beta.6
+156 verbose afterAdd /home/ionic/.npm/angular2/2.0.0-beta.6/package/package.json not in flight; writing
+157 verbose correctMkdir /home/ionic/.npm correctMkdir already in flight; waiting
+158 silly cache afterAdd ionicons@3.0.0-alpha.3
+159 verbose afterAdd /home/ionic/.npm/ionicons/3.0.0-alpha.3/package/package.json not in flight; writing
+160 verbose correctMkdir /home/ionic/.npm correctMkdir not in flight; initializing
+161 silly cache afterAdd reflect-metadata@0.1.2
+162 verbose afterAdd /home/ionic/.npm/reflect-metadata/0.1.2/package/package.json not in flight; writing
+163 verbose correctMkdir /home/ionic/.npm correctMkdir not in flight; initializing
+164 verbose afterAdd /home/ionic/.npm/es6-promise/3.0.2/package/package.json written
+165 verbose afterAdd /home/ionic/.npm/angular2/2.0.0-beta.6/package/package.json written
+166 verbose afterAdd /home/ionic/.npm/ionicons/3.0.0-alpha.3/package/package.json written
+167 verbose afterAdd /home/ionic/.npm/reflect-metadata/0.1.2/package/package.json written
+168 silly cache afterAdd es6-shim@0.33.13
+169 verbose afterAdd /home/ionic/.npm/es6-shim/0.33.13/package/package.json not in flight; writing
+170 verbose correctMkdir /home/ionic/.npm correctMkdir not in flight; initializing
+171 silly cache afterAdd zone.js@0.5.14
+172 verbose afterAdd /home/ionic/.npm/zone.js/0.5.14/package/package.json not in flight; writing
+173 verbose correctMkdir /home/ionic/.npm correctMkdir not in flight; initializing
+174 silly cache afterAdd rxjs@5.0.0-beta.0
+175 verbose afterAdd /home/ionic/.npm/rxjs/5.0.0-beta.0/package/package.json not in flight; writing
+176 verbose correctMkdir /home/ionic/.npm correctMkdir not in flight; initializing
+177 verbose afterAdd /home/ionic/.npm/es6-shim/0.33.13/package/package.json written
+178 verbose afterAdd /home/ionic/.npm/zone.js/0.5.14/package/package.json written
+179 verbose afterAdd /home/ionic/.npm/rxjs/5.0.0-beta.0/package/package.json written
+180 silly rollbackFailedOptional Starting
+181 silly rollbackFailedOptional Finishing
+182 silly runTopLevelLifecycles Starting
+183 silly runTopLevelLifecycles Finishing
+184 silly install printInstalled
+185 verbose stack Error: No compatible version found: ionic-angular@2.0.0-beta.3
+185 verbose stack Valid install targets:
+185 verbose stack 2.0.0-beta.2, 2.0.0-beta.1, 2.0.0-beta.0
+185 verbose stack
+185 verbose stack     at pickVersionFromRegistryDocument (/usr/lib/node_modules/npm/lib/fetch-package-metadata.js:156:16)
+185 verbose stack     at /usr/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+185 verbose stack     at /usr/lib/node_modules/npm/lib/utils/pulse-till-done.js:19:8
+185 verbose stack     at CachingRegistryClient.get_ (/usr/lib/node_modules/npm/lib/cache/caching-client.js:120:16)
+185 verbose stack     at /usr/lib/node_modules/npm/lib/cache/caching-client.js:87:14
+185 verbose stack     at /usr/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+185 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:404:3)
+186 verbose cwd /home/ionic/Documents/something
+187 error Linux 4.2.0-30-generic
+188 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install"
+189 error node v5.7.1
+190 error npm  v3.8.0
+191 error No compatible version found: ionic-angular@2.0.0-beta.3
+191 error Valid install targets:
+191 error 2.0.0-beta.2, 2.0.0-beta.1, 2.0.0-beta.0
+192 error If you need help, you may report this error at:
+192 error     <https://github.com/npm/npm/issues>
+193 verbose exit [ 1, true ]
